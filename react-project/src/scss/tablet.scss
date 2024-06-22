@@ -1,0 +1,12 @@
+.table {
+  display: flex;          // Dùng flexbox để sắp xếp các phần tử con
+  flex-wrap: wrap;        // Cho phép các phần tử con xuống dòng khi không đủ chỗ
+  justify-content: center; // Căn giữa các phần tử con theo chiều ngang
+}
+
+.box-position {
+  width: 150px;           // Thiết lập chiều rộng của mỗi BoxPosition
+  height: 100px;          // Thiết lập chiều cao của mỗi BoxPosition
+  margin: 10px;           // Để tạo khoảng cách giữa các BoxPosition
+  background-color: #ccc; // Màu nền cho BoxPosition
+}
